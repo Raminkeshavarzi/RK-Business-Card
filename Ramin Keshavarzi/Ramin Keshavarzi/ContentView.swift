@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-            Color(UIColor(red: 0.20, green: 0.60, blue: 0.86, alpha: 1.00)).edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            Color(UIColor(red: 0.20, green: 0.60, blue: 0.86, alpha: 0.9)).edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack{
                 Image("Ramin").resizable()
                     .aspectRatio(contentMode: .fill)
@@ -19,12 +19,13 @@ struct ContentView: View {
                     .shadow(radius: 10)
                     .padding()
                 
-                Text("Ramin Keshavarzi").fontWeight(.semibold)
-                    .font(.system(size: 35))
+                Text("Ramin Keshavarzi")
+                    .font(Font.custom("DancingScript-Regular", size: 45))
                     .foregroundColor(.white)
         
                 
-                Text("Entrepreneur").fontWeight(.medium)
+                Text("Entrepreneur")
+                    .fontWeight(.medium)
                     .font(.headline)
                     .foregroundColor(.black)
             }

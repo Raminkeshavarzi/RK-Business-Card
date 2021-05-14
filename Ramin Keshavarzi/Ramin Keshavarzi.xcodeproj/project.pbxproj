@@ -13,6 +13,9 @@
 		F502F5C2264E46230057E760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F502F5C1264E46230057E760 /* Assets.xcassets */; };
 		F502F5C5264E46230057E760 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F502F5C4264E46230057E760 /* Preview Assets.xcassets */; };
 		F502F5C8264E46230057E760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F502F5C6264E46230057E760 /* LaunchScreen.storyboard */; };
+		F502F5D8264E532A0057E760 /* Caveat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F502F5D7264E532A0057E760 /* Caveat-SemiBold.ttf */; };
+		F502F5DB264E537F0057E760 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F502F5D9264E537F0057E760 /* DancingScript-Regular.ttf */; };
+		F502F5DC264E537F0057E760 /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F502F5DA264E537F0057E760 /* DancingScript-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F502F5C4264E46230057E760 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F502F5C7264E46230057E760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F502F5C9264E46230057E760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F502F5D7264E532A0057E760 /* Caveat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-SemiBold.ttf"; sourceTree = "<group>"; };
+		F502F5D9264E537F0057E760 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		F502F5DA264E537F0057E760 /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,10 @@
 		F502F5BA264E46220057E760 /* Ramin Keshavarzi */ = {
 			isa = PBXGroup;
 			children = (
+				F502F5D0264E50290057E760 /* Assests */,
 				F502F5BB264E46220057E760 /* AppDelegate.swift */,
 				F502F5BD264E46220057E760 /* SceneDelegate.swift */,
 				F502F5BF264E46220057E760 /* ContentView.swift */,
-				F502F5C1264E46230057E760 /* Assets.xcassets */,
 				F502F5C6264E46230057E760 /* LaunchScreen.storyboard */,
 				F502F5C9264E46230057E760 /* Info.plist */,
 				F502F5C3264E46230057E760 /* Preview Content */,
@@ -73,6 +79,25 @@
 				F502F5C4264E46230057E760 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F502F5CF264E50230057E760 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F502F5D9264E537F0057E760 /* DancingScript-Regular.ttf */,
+				F502F5DA264E537F0057E760 /* DancingScript-SemiBold.ttf */,
+				F502F5D7264E532A0057E760 /* Caveat-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F502F5D0264E50290057E760 /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				F502F5C1264E46230057E760 /* Assets.xcassets */,
+				F502F5CF264E50230057E760 /* fonts */,
+			);
+			path = Assests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F502F5C8264E46230057E760 /* LaunchScreen.storyboard in Resources */,
+				F502F5DC264E537F0057E760 /* DancingScript-SemiBold.ttf in Resources */,
 				F502F5C5264E46230057E760 /* Preview Assets.xcassets in Resources */,
 				F502F5C2264E46230057E760 /* Assets.xcassets in Resources */,
+				F502F5D8264E532A0057E760 /* Caveat-SemiBold.ttf in Resources */,
+				F502F5DB264E537F0057E760 /* DancingScript-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
