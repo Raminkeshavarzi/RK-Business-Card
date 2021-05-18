@@ -16,6 +16,7 @@
 		F502F5D8264E532A0057E760 /* Caveat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F502F5D7264E532A0057E760 /* Caveat-SemiBold.ttf */; };
 		F502F5DB264E537F0057E760 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F502F5D9264E537F0057E760 /* DancingScript-Regular.ttf */; };
 		F502F5DC264E537F0057E760 /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F502F5DA264E537F0057E760 /* DancingScript-SemiBold.ttf */; };
+		F56F27032653AE48003DE4C3 /* infoViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F27022653AE48003DE4C3 /* infoViewUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F502F5D7264E532A0057E760 /* Caveat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-SemiBold.ttf"; sourceTree = "<group>"; };
 		F502F5D9264E537F0057E760 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
 		F502F5DA264E537F0057E760 /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
+		F56F27022653AE48003DE4C3 /* infoViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,10 @@
 		F502F5BA264E46220057E760 /* Ramin Keshavarzi */ = {
 			isa = PBXGroup;
 			children = (
+				F56F26FF2653AE14003DE4C3 /* view */,
 				F502F5D0264E50290057E760 /* Assests */,
 				F502F5BB264E46220057E760 /* AppDelegate.swift */,
 				F502F5BD264E46220057E760 /* SceneDelegate.swift */,
-				F502F5BF264E46220057E760 /* ContentView.swift */,
 				F502F5C6264E46230057E760 /* LaunchScreen.storyboard */,
 				F502F5C9264E46230057E760 /* Info.plist */,
 				F502F5C3264E46230057E760 /* Preview Content */,
@@ -98,6 +100,15 @@
 				F502F5CF264E50230057E760 /* fonts */,
 			);
 			path = Assests;
+			sourceTree = "<group>";
+		};
+		F56F26FF2653AE14003DE4C3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F502F5BF264E46220057E760 /* ContentView.swift */,
+				F56F27022653AE48003DE4C3 /* infoViewUI.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56F27032653AE48003DE4C3 /* infoViewUI.swift in Sources */,
 				F502F5BC264E46220057E760 /* AppDelegate.swift in Sources */,
 				F502F5BE264E46220057E760 /* SceneDelegate.swift in Sources */,
 				F502F5C0264E46220057E760 /* ContentView.swift in Sources */,
