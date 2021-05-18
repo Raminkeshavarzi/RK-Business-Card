@@ -28,5 +28,6 @@ struct infoView: View {
 struct infoViewUI_Previews: PreviewProvider {
     static var previews: some View {
         infoView(text: "+34 654 232 712", imageName: "phone.fill")
+            .previewLayout(.sizeThatFits)
     }
 }
